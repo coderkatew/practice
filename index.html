@@ -3,36 +3,141 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Card Game</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Match It</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" type="text/css"/>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-<section class="game-board">
+<heading>
+<nav class="navbar navbar-expand navbar-bg fixed-top">
+       <div id="desktop-nav" class="desktop-nav">
+        <ul class="navbar-nav mr-auto">
+            <p>Match It</p>
+            <li class="nav-item mr-2"><a class="nav-link" href="index.html">Play</a></li>
+            <li class="nav-item mr-2"><a class="nav-link" href="index.html">Leaderboard</a></li>
+            <li class="nav-item mr-2"><a class="nav-link" href="#games">More Games</a></li>
+            <li class="nav-item mr-2"><a class="nav-link" href="#newsletter">Newsletter</a></li>
+        </ul>
+        </div>
+        <div id="mobile-nav" class="mobile-nav">
+          <ul class="navbar-nav mr-auto">
+            <a class="nav-item nav-link" href="index.html"> <i class="fas fa-play" aria-hidden="true"></i></a>
+            <a class="nav-item nav-link" href="index.html"> <i class="fas fa-trophy" aria-hidden="true"></i></a>
+            <a class="nav-item nav-link" href="#games"><i class="fas fa-gamepad" aria-hidden="true"></i></a>
+            <a class="nav-item nav-link" href="#newsletter"><i class="fas fa-edit" aria-hidden="true"></i></a>
+            </ul>
+        </div>
+    </nav>
+</heading>
+<section id="start-game">
+    <div class="begin">
+    <h1>Select a card to begin.</h1>
+    </div>
+</section>
+<section id="game-board">
         <div class="card">
-            <img class="card-face" src="assets/images/card-face.png" alt="Picture Card"/>
+            <img class="card-face" src="assets/images/castle.jpg" alt="Castle card"/>
+            <img class="card-back" src="assets/images/card-back.jpg" alt="Back of card"/>
         </div>
         <div class="card">
-             <img class="card-back" src="assets/images/card-back.png" alt="Patterned Card"/>
+            <img class="card-face" src="assets/images/castle.jpg" alt="Castle card"/>
+            <img class="card-back" src="assets/images/card-back.jpg" alt="Back of card"/>
         </div>
         <div class="card">
-            <img class="card-face" src="assets/images/card-face.png" alt="Picture Card"/>
+            <img class="card-face" src="assets/images/cat.jpg" alt="Cat card"/>
+            <img class="card-back" src="assets/images/card-back.jpg" alt="Back of card"/>
         </div>
         <div class="card">
-             <img class="card-back" src="assets/images/card-back.png" alt="Patterned Card"/>
+            <img class="card-face" src="assets/images/cat.jpg" alt="Cat card"/>
+            <img class="card-back" src="assets/images/card-back.jpg" alt="Back of card"/>
         </div>
         <div class="card">
-            <img class="card-face" src="assets/images/card-face.png" alt="Picture Card"/>
+            <img class="card-face" src="assets/images/dragon.jpg" alt="Dragon card"/>
+            <img class="card-back" src="assets/images/card-back.jpg" alt="Back of card"/>
         </div>
         <div class="card">
-             <img class="card-back" src="assets/images/card-back.png" alt="Patterned Card"/>
+            <img class="card-face" src="assets/images/dragon.jpg" alt="Dragon card"/>
+            <img class="card-back" src="assets/images/card-back.jpg" alt="Back of card"/>
         </div>
         <div class="card">
-            <img class="card-face" src="assets/images/card-face.png" alt="Picture Card"/>
+            <img class="card-face" src="assets/images/frog.jpg" alt="Frog card"/>
+            <img class="card-back" src="assets/images/card-back.jpg" alt="Back of card"/>
         </div>
         <div class="card">
-             <img class="card-back" src="assets/images/card-back.png" alt="Patterned Card"/>
+            <img class="card-face" src="assets/images/frog.jpg" alt="Frog card"/>
+            <img class="card-back" src="assets/images/card-back.jpg" alt="Back of card"/>
+        </div>
+        <div class="card">
+            <img class="card-face" src="assets/images/gingerbread.jpg" alt="Gingerbread figure card"/>
+            <img class="card-back" src="assets/images/card-back.jpg" alt="Back of card"/>
+        </div>
+        <div class="card">
+            <img class="card-face" src="assets/images/gingerbread.jpg" alt="Gingerbread figure card"/>
+            <img class="card-back" src="assets/images/card-back.jpg" alt="Back of card"/>
+        </div>
+        <div class="card">
+            <img class="card-face" src="assets/images/owl.jpg" alt="Owl card"/>
+            <img class="card-back" src="assets/images/card-back.jpg" alt="Back of card"/>
+        </div>
+        <div class="card">
+            <img class="card-face" src="assets/images/owl.jpg" alt="Owl card"/>
+            <img class="card-back" src="assets/images/card-back.jpg" alt="Back of card"/>
+        </div>
+        <div class="card">
+            <img class="card-face" src="assets/images/rabbit.jpg" alt="Rabbit card"/>
+            <img class="card-back" src="assets/images/card-back.jpg" alt="Back of card"/>
+        </div>
+        <div class="card">
+            <img class="card-face" src="assets/images/rabbit.jpg" alt="Rabbit card"/>
+            <img class="card-back" src="assets/images/card-back.jpg" alt="Back of card"/>
+        </div>
+        <div class="card">
+            <img class="card-face" src="assets/images/rainbow.jpg" alt="Rainbow card"/>
+            <img class="card-back" src="assets/images/card-back.jpg" alt="Back of card"/>
+        </div>
+        <div class="card">
+            <img class="card-face" src="assets/images/rainbow.jpg" alt="Rainbow card"/>
+            <img class="card-back" src="assets/images/card-back.jpg" alt="Back of card"/>
         </div>
 </section>
-    <script src="main.js"></script>
+<section id="leaderboard">
+        <div class="table">
+        <table>
+        <tr class="leaderboard-heading">
+        <td>Player</td>
+        <td>Score</td>
+        </tr>
+        <tr class="player">
+        <td>Player 1</td>
+        <td>100</td>
+        </tr>
+        <tr class="player">
+        <td>Player 2</td>
+        <td>90</td>
+        </tr>
+        <tr class="player">
+        <td>Player 3</td>
+        <td>80</td>
+        </tr>
+        <tr class="player">
+        <td>Player 4</td>
+        <td>70</td>
+        </tr>
+        <tr class="player">
+        <td>Player 5</td>
+        <td>60</td>
+        </tr>
+        </table>
+        </div>
+</section>
+<footer>
+    <ul class="social-links">
+          <li><a href="https://www.instagram.com" target="_blank"> <i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+          <li><a href="https://www.facebook.com" target="_blank"> <i class="fab fa-facebook-square" aria-hidden="true"></i></a></li>
+          <li><a href="https://www.reddit.com" target="_blank"> <i class="fab fa-reddit-square" aria-hidden="true"></i></a></li>
+      </ul>
+</footer>
+    <script src="assets/js/main.js"></script>
 </body>
 </html>
