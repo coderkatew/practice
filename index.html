@@ -7,10 +7,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" type="text/css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" type="text/css"/>
     <link rel="stylesheet" href="assets/css/style.css">
-</head>
-<body>
-<heading>
-<nav class="navbar navbar-expand navbar-bg fixed-top">
+    <nav class="navbar navbar-expand navbar-bg fixed-top">
        <div id="desktop-nav" class="desktop-nav">
         <ul class="navbar-nav mr-auto">
             <p>Match It</p>
@@ -29,79 +26,25 @@
             </ul>
         </div>
     </nav>
-</heading>
-<section id="start-game">
-    <div class="begin">
-    <h1>Select a card to begin.</h1>
+</head>
+<body>
+    <div class="overlay-text visible">
+        Match It
+        <span class="overlay-small">Click to begin!</span>
     </div>
-</section>
-<section id="game-board">
-        <div class="card">
-            <img class="card-face" src="assets/images/castle.jpg" alt="Castle card"/>
-            <img class="card-back" src="assets/images/card-back.jpg" alt="Back of card"/>
+<div id="main-gameboard" class="game-board">
+        <div class="game-info">
+            <div class="time-turns">
+                Time <span id="timer"></span>
+            </div>
+            <div class="time-turns">
+                Turns <span id="turns">0</span>
+            </div>
         </div>
-        <div class="card">
-            <img class="card-face" src="assets/images/castle.jpg" alt="Castle card"/>
-            <img class="card-back" src="assets/images/card-back.jpg" alt="Back of card"/>
-        </div>
-        <div class="card">
-            <img class="card-face" src="assets/images/cat.jpg" alt="Cat card"/>
-            <img class="card-back" src="assets/images/card-back.jpg" alt="Back of card"/>
-        </div>
-        <div class="card">
-            <img class="card-face" src="assets/images/cat.jpg" alt="Cat card"/>
-            <img class="card-back" src="assets/images/card-back.jpg" alt="Back of card"/>
-        </div>
-        <div class="card">
-            <img class="card-face" src="assets/images/dragon.jpg" alt="Dragon card"/>
-            <img class="card-back" src="assets/images/card-back.jpg" alt="Back of card"/>
-        </div>
-        <div class="card">
-            <img class="card-face" src="assets/images/dragon.jpg" alt="Dragon card"/>
-            <img class="card-back" src="assets/images/card-back.jpg" alt="Back of card"/>
-        </div>
-        <div class="card">
-            <img class="card-face" src="assets/images/frog.jpg" alt="Frog card"/>
-            <img class="card-back" src="assets/images/card-back.jpg" alt="Back of card"/>
-        </div>
-        <div class="card">
-            <img class="card-face" src="assets/images/frog.jpg" alt="Frog card"/>
-            <img class="card-back" src="assets/images/card-back.jpg" alt="Back of card"/>
-        </div>
-        <div class="card">
-            <img class="card-face" src="assets/images/gingerbread.jpg" alt="Gingerbread figure card"/>
-            <img class="card-back" src="assets/images/card-back.jpg" alt="Back of card"/>
-        </div>
-        <div class="card">
-            <img class="card-face" src="assets/images/gingerbread.jpg" alt="Gingerbread figure card"/>
-            <img class="card-back" src="assets/images/card-back.jpg" alt="Back of card"/>
-        </div>
-        <div class="card">
-            <img class="card-face" src="assets/images/owl.jpg" alt="Owl card"/>
-            <img class="card-back" src="assets/images/card-back.jpg" alt="Back of card"/>
-        </div>
-        <div class="card">
-            <img class="card-face" src="assets/images/owl.jpg" alt="Owl card"/>
-            <img class="card-back" src="assets/images/card-back.jpg" alt="Back of card"/>
-        </div>
-        <div class="card">
-            <img class="card-face" src="assets/images/rabbit.jpg" alt="Rabbit card"/>
-            <img class="card-back" src="assets/images/card-back.jpg" alt="Back of card"/>
-        </div>
-        <div class="card">
-            <img class="card-face" src="assets/images/rabbit.jpg" alt="Rabbit card"/>
-            <img class="card-back" src="assets/images/card-back.jpg" alt="Back of card"/>
-        </div>
-        <div class="card">
-            <img class="card-face" src="assets/images/rainbow.jpg" alt="Rainbow card"/>
-            <img class="card-back" src="assets/images/card-back.jpg" alt="Back of card"/>
-        </div>
-        <div class="card">
-            <img class="card-face" src="assets/images/rainbow.jpg" alt="Rainbow card"/>
-            <img class="card-back" src="assets/images/card-back.jpg" alt="Back of card"/>
-        </div>
-</section>
-<section id="leaderboard">
+
+        <!-- Game Cards -->
+    </div>
+<!--<section id="leaderboard">
         <div class="table">
         <table>
         <tr class="leaderboard-heading">
@@ -130,7 +73,7 @@
         </tr>
         </table>
         </div>
-</section>
+</section>--->
 <footer>
     <ul class="social-links">
           <li><a href="https://www.instagram.com" target="_blank"> <i class="fab fa-instagram" aria-hidden="true"></i></a></li>
@@ -140,4 +83,5 @@
 </footer>
     <script src="assets/js/main.js"></script>
 </body>
+
 </html>
